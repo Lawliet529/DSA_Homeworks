@@ -23,13 +23,13 @@ public class Fraction {
     return numerator;
   }
 
-  public int getDenominator() {
-    return denominator;
-  }
-
   public void setNumerator(int numerator) {
     this.numerator = numerator;
     simplify();
+  }
+
+  public int getDenominator() {
+    return denominator;
   }
 
   public void setDenominator(int denominator) {
